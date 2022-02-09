@@ -1,0 +1,37 @@
+#cssmenu ul {
+  list-style-type: none;
+  
+  
+  display: block;
+  height: 33px;
+  font-size: 80px;
+  background: #333333;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  
+  margin: 0;
+  padding: 0;
+}
+#cssmenu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu li a {
+  float: left;
+  color: #A79787;
+  text-decoration: none;
+  height: 24px;
+  padding: 9px 15px 0;
+  font-weight: normal;
+}
+#cssmenu li a:hover,
+.current a {
+  color: #fff;
+  background: #a3bae6 url(images/bg.png) repeat-x top left;
+  text-decoration: none;
+}
+#cssmenu .current a {
+  color: #fff;
+  font-weight: 800;
+}
